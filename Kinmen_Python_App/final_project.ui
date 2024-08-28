@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>905</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>景點位置</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_2" stretch="8,1">
+          <property name="leftMargin">
+           <number>10</number>
+          </property>
+          <property name="topMargin">
+           <number>10</number>
+          </property>
+          <property name="rightMargin">
+           <number>10</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout"/>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,10">
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>景點名稱：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_campus">
+              <property name="font">
+               <font>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <item>
+               <property name="text">
+                <string>邱良功古厝</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>陳詩吟洋樓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>朱子祠</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>黃偉墓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>黃宣顯六路大厝</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>莒光樓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>奎閣(魁星樓)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>瓊林蔡氏家廟</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>清金門鎮總兵署</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>吳秀才厝</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>慈德宮</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>邱良功母節孝坊</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>將軍第</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>虛江嘯臥碣群</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>陳禎恩榮坊</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>海印寺</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>邱良功墓園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>豐蓮山牧馬侯祠</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>文臺寶塔</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>漢影雲根碣</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>瓊林一門三節坊</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>石門關</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>睿友學校</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>楊華故居</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>金門縣林務所</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>貴山海灘</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>溪邊海水浴場</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>上林海灘</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>貓公石濱海休憩區</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>金門城</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>茅山塔</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>國姓井</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>北風爺、風雞</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>三眼井</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>吳稚暉紀念公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>金水國小</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>西園鹽場</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>金門高中中正堂</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>東林東井</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>小西門模範廁</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>南山林道</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>復國墩觀景台</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>明遺老街</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>石兔</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>劉玉章雕像</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>葉華成故居</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>玉章路牌坊</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>斗門古道</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>欽旌節牌坊</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>無愧亭</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>倒影塔</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>五虎山</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>擎天山莊公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>料羅海濱公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>金門媽祖公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>后湖海濱公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>東林海濱公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>環保公園低碳教育館</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>中正公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>金門石雕公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>莒光公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>南石滬公園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>鄭成功觀兵奕棋處</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>梅園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>頑石點頭勒石群</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>中正紀念林</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>古崗樓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>榕園</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>太武山風景區</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>楓香林</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>榮湖</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>金沙水庫</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>陽明湖</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>蘭湖</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>太湖遊憩區</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>慈湖</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>雙鯉湖/雙鯉溼地中心</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>陵水湖</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>古崗湖風景區</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>莒光湖</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>珠山聚落</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>水頭聚落</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>毋忘在莒</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>瓊林民防館</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>八二三戰役勝利紀念碑</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>湖井頭戰史館</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>古寧頭牌樓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>八達樓子</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>勝利門</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>八二三砲戰勝利紀念碑</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>俞大維先生紀念館</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>乳山故壘</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>北山斷崖</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>馬山觀測所</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>湖下三間樓仔</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>陳德幸洋樓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>水頭57地號洋樓(僑鄉文化展示館)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>薛永南兄弟大樓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>陳景蘭洋樓</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>北山古洋樓</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>景點資訊</string>
+       </attribute>
+       <widget class="QTableView" name="tableView">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>531</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="autoScroll">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>550</x>
+          <y>10</y>
+          <width>321</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="font">
+                <font>
+                 <pointsize>18</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>第</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="comboBox_page">
+               <property name="font">
+                <font>
+                 <pointsize>18</pointsize>
+                </font>
+               </property>
+               <item>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>5</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>6</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>7</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="font">
+                <font>
+                 <pointsize>18</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>頁</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QPushButton" name="p_But_prepage">
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>上一頁</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="p_But_nextpage">
+             <property name="font">
+              <font>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
+             <property name="text">
+              <string>下一頁</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="font">
+              <font>
+               <pointsize>18</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>景點介紹</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QTextBrowser" name="textBrowser_summary">
+             <property name="font">
+              <font>
+               <pointsize>15</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 236, 203);</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>道地美食</string>
+       </attribute>
+       <widget class="QWidget" name="layoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>60</y>
+          <width>761</width>
+          <height>471</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4" stretch="3,1">
+         <item>
+          <widget class="QLabel" name="img">
+           <property name="maximumSize">
+            <size>
+             <width>1600</width>
+             <height>1600</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="description">
+           <property name="maximumSize">
+            <size>
+             <width>1600</width>
+             <height>1600</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(255, 236, 203);</string>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="layoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>761</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,1,0,0">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <pointsize>20</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>美食名稱：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_title">
+           <property name="font">
+            <font>
+             <pointsize>18</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pre_pushButton">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>上一個</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="next_pushButton">
+           <property name="font">
+            <font>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>下一個</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>905</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
