@@ -16,8 +16,8 @@ Function library for designing user interface (GUI)
 ## Kinmen_Python_App
 [Introduction video Link](https://youtu.be/aToHfPyB6lU)
 - **Scenic Spot Location:** Using the API (Application Programming Interface) provided by the Central Weather Bureau's open data platform, the latitude and longitude coordinates of the required scenic spots in Kinmen are retrieved. When the user clicks on any scenic spot from the dropdown menu, the location of the spot is displayed on the map.
-![image](kinmen-pic/k-1.png)
+![image](Kinmen-pic/k-1.png)
 - **Scenic Spot Information:** Detailed information about the locations is organized and displayed in a table format. When the user clicks on a table entry, the detailed information of the selected scenic spot is shown on the right side. Additionally, users can navigate through the pages using a dropdown menu and buttons.
-![image](kinmen-pic/k-2.png)
+![image](Kinmen-pic/k-2.png)
 - **Local Kinmen Cuisine:** Introduces the local cuisine of Kinmen. When the user selects a dish from the dropdown menu, an image of the dish is displayed. The buttons allow the user to choose to go to the previous or next page.
-![image](kinmen-pic/k-3.png)
+![image](Kinmen-pic/k-3.png)
