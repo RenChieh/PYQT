@@ -29,7 +29,9 @@ Function library for designing user interface (GUI)
 ![image](Kinmen-pic/k-3.png)
 
 ## Research Paper Database App
-- Use SQLite Studio, and the database file is named test.sqlite. The database contains three tables: Authors, PaperAuthors, and Papers.
+- SQLite Studio installation URL:[https://github.com/pawelsalawa/sqlitestudio/releases](https://github.com/pawelsalawa/sqlitestudio/releases)
+- Use SQLite Studio, and the database file is named test.sqlite.
+- The database contains three tables: Authors, PaperAuthors, and Papers.
 ![image](Research_pic/1.png) 
 - Query paper titles.
 ![image](Research_pic/2.png) 
