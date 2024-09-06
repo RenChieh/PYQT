@@ -27,3 +27,17 @@ Function library for designing user interface (GUI)
 - **Local Kinmen Cuisine:** Introduces the local cuisine of Kinmen. When the user selects a dish from the dropdown menu, an image of the dish is displayed. The buttons allow the user to choose to go to the previous or next page.
 
 ![image](Kinmen-pic/k-3.png)
+
+## Research Paper Database App
+- Use SQLite Studio, and the database file is named test.sqlite. The database contains three tables: Authors, PaperAuthors, and Papers.
+![image](Research_pic/1.png) 
+- Query paper titles.
+![image](Research_pic/2.png) 
+- Display related information of the paper (clicking the title in the table displays related images of the paper).
+![image](Research_pic/3.png) 
+- Users can choose whether to save the data.
+![image](Research_pic/4.png) 
+- Search based on different types of paper presentations.
+![image](Research_pic/5.png) 
+- Count the number of papers published by authors for all poster presentations.
+![image](Research_pic/6.png) 
